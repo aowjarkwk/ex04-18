@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>img태그 : 이미지 출력 태그</title>
+</head>
+
+<body>
+    <!-- 이미지파일 종류 : png, jpg, jpeg, webp, gif,bmp -->
+    <!-- png : 무손실압축, 주로 모바일에서 사용, 작은 아이콘이미지 등에 사용 -->
+    <!-- jpg : 손실압축, 큰 이미지(배경)를 압축할 때, 주로 PC에서 사용 -->
+    <!-- jpeg : 손실압축, 예전포맷이나 요즘은 사용하지 않음.-->
+    <!-- webp : 무손실압축, 최신 포맷, 점점 사용이 늘어감. -->
+    <!-- gif : 애니메이션 gif, 움직이는 이미지 용도 -->
+    <!-- bmp : 원본파일, 압축없음, 용량 크다. -->
+    <!-- src : 이미지 파일이름 -->
+    <!-- alt : 이미지가 없을경우의 대체문구 -->
+    <img src="image.jpg" alt="태연이미지">
+
+    <img src="image.jpg" alt="태연이미지" width="217" height="208"> 
+
+    <!-- 가로:434 세로:416 -->
+    <!-- 434:416 = 300:x -->
+    <!-- x = 416*300 / 434 -->
+    <img src="image.jpg" alt="태연이미지" width="300" height="287">
+    <!-- 연습문제 width = x height=500 -->
+    <img src="image.jpg" alt="태연이미지" width="521" height="500">
+    <img src="add.png" alt="add버튼" width="100" height="100">
+    <!-- 이미지가 준비되지 않았을때 더미 이미지 -->
+    <img src="http://placehold.it/300x200">
+    <img src="http://placehold.it/400x500">
+    
+</body>
+
+</html>

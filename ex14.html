@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>form태그 : 입력양식 태그</title>
+</head>
+
+<body>
+<!-- action : 서버주소 -->
+<!-- method : http통신방식 GET/POST -->
+<!-- GET방식 :  http://www.site.com?id=hong&password=1234-->
+<!--                    서버주소   ?키1=값1 & 키2    = 값2-->
+<!-- POST 방식 : http://www.site.com에 http통신 body에 데이타를 숨겨 보낸다.(중요한정보) -->
+<!-- 크롬브라우저 단축키 F12 -->
+<!-- type : 입력태그의 종류 -->
+<!-- name : 서버가 인식하는 변수의 이름 -->
+    <form action="http://www.site.com" method="POST">
+        <input type="text" name="id"><br>
+        <input type="password" name="password"><br>
+        <input type="file" name="file"><br>
+        <input type="submit"><br>
+    </form>
+</body>
+
+</html>
